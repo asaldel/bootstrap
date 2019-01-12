@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>tabindex/accessKey</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<style>
+			
+		</style>
+	</head>
+    <body>
+		<!-- tabindex -->
+		<a href="https://www.google.es">Ir a Google</a>
+		<select name="prb" id="prb"></select>
+		<input type="text">
+		
+		<br>
+
+		<p tabindex="0">Esto es una prueba p</p>
+		<div id="div1" tabindex="-1">Esto es una prueba div</div>
+		<input type="text">
+		
+		<br>
+		
+		<input type="text">
+		
+		<br>
+		
+		<input type="text">
+		
+		<br>
+		
+		<input type="text">
+		
+		<br>
+
+		<button onclick="document.getElementById('div1').focus();">Foco</button>
+
+		<br>
+
+		<input type="text" tabindex="2">@
+		<input type="text" tabindex="1">
+		
+		<br><br>
+
+		<!-- accessKey -->
+		<!-- Chrome: alt + letra -->
+		<!-- Firefox: shift + alt + letra -->
+		<input type="text">
+		<br>
+		<input accesskey="a" type="text">
+		<br>
+		<input type="text">
+    </body>
+</html>
